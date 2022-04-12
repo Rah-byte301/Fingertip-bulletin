@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fingertip-bulletin/static/css/main.fd8a8387.css",
-    "main.js": "/fingertip-bulletin/static/js/main.10c12b88.js",
+    "main.js": "/fingertip-bulletin/static/js/main.1a855390.js",
     "index.html": "/fingertip-bulletin/index.html",
     "main.fd8a8387.css.map": "/fingertip-bulletin/static/css/main.fd8a8387.css.map",
-    "main.10c12b88.js.map": "/fingertip-bulletin/static/js/main.10c12b88.js.map"
+    "main.1a855390.js.map": "/fingertip-bulletin/static/js/main.1a855390.js.map"
   },
   "entrypoints": [
     "static/css/main.fd8a8387.css",
-    "static/js/main.10c12b88.js"
+    "static/js/main.1a855390.js"
   ]
 }
