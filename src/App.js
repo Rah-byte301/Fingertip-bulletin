@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { createContext, useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import axios from "axios";
+import { NewsContextProvider } from "./NewsContext";
+import News from "./components/News";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <NewsContextProvider>
+      <News />
+      <span className="material-icons ">copyright</span>
+      <span style={{ fontSize: "20px" }}>Rahul Ganguly</span>
+    </NewsContextProvider>
   );
 }
 

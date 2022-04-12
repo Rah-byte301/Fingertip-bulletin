@@ -1,0 +1,28 @@
+.news_expand {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.thumbnail {
+  height: 250px;
+  width: 290px;
+  border: 5px solid green;
+  border-radius: 10px;
+}
+
+.news_url {
+  background-color: goldenrod;
+  border: 5px solid gold;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: yellowgreen;
+  border: 5px solid goldenrod;
+}
+
+a:hover {
+  color: red;
+}

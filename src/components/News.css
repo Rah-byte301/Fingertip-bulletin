@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  left: 0;
+  background-color: darkolivegreen;
+  border-radius: 15px;
+  height: 350px;
+}
+
+.head_head {
+  font-weight: bold;
+  color: yellow;
+  padding-top: 100px;
+  font-size: 70px;
+}
+
+.head_text {
+  font-weight: 150px;
+  font-size: 50px;
+}
