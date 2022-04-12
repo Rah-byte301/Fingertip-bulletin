@@ -12,7 +12,7 @@ body {
 }
 
 .all__news {
-  margin: 50px auto;
+  margin: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
