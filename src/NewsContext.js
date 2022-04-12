@@ -10,7 +10,7 @@ export const NewsContextProvider = (props) => {
   useEffect(() => {
     axios
       .get(
-        `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${apiKey}`
+        `https://saurav.tech/NewsAPI/top-headlines/category/health/in.json`
       )
       .then((response) => setData(response.data))
       .catch((error) => console.log(error));
