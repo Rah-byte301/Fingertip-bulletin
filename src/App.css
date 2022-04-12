@@ -6,8 +6,8 @@
 
 body {
   font-family: inter;
-  width: 100%;
-  margin: 0 auto;
+  width: 100vw;
+  margin: 0;
   background: rgb(187, 255, 0);
 }
 
